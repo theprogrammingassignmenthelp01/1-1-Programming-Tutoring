@@ -87,11 +87,13 @@ A very common misunderstanding.
        print(a + b)
 This prints a value but returns nothing.
 So if you do:
-result = add(2, 3)
-print(result)
+
+    result = add(2, 3)
+    print(result)
 You get None.
 To actually use the result:
-def add(a, b):
+
+    def add(a, b):
     return a + b
 This one took me a while to understand when I started out.
 
@@ -117,23 +119,25 @@ The moment an error shows up, many beginners start guessing.
 They change a line. Error still there. They change something else. Now two things break.
 
 Debugging is slower but much less painful:
+
 - read the error message
 - look at the exact line it mentions
--	check what values your variables actually have
--	fix one thing at a time
+- check what values your variables actually have
+- fix one thing at a time
 
 This is something that improves naturally with practice.
 
 ### When learning becomes easier
 
-Some people pick up coding concepts quickly on their own, and that’s great. Others understand things faster when someone explains what’s happening under the hood. If you ever feel like you’re stuck for too long or you keep going in circles with your errors, getting help from a **[1:1 programming tutor](https://theprogrammingassignmenthelp.com/premium-boutique)** can make things a lot clearer.
+Some people pick up coding concepts quickly on their own, and that’s great. Others understand things faster when someone explains what’s happening under the hood. 
+If you ever feel like you’re stuck for too long or you keep going in circles with your errors, getting help from a **[1:1 programming tutor](https://theprogrammingassignmenthelp.com/premium-boutique)** can make things a lot clearer.
 It’s often just small guidance that makes a big difference.
 (Place your link here - this line is natural, subtle, and acceptable on GitHub.)
 
 ### A few small exercises
 If you want to practice:
--	Write a loop that prints the numbers 1 through 10.
--	Write a function that returns the largest number in a list.
+- Write a loop that prints the numbers 1 through 10.
+- Write a function that returns the largest number in a list.
 -	Fix the indentation here:
 -	if True:
 -	print("Hello")
